@@ -1,0 +1,25 @@
+{
+    "name": "daily_trigger",
+    "properties": {
+        "description": "Trigger the data ingestion pipeline on a daily basis",
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "airbnb_etl_pipeline",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Day",
+                "interval": 1,
+                "startTime": "2024-12-04T19:39:00",
+                "timeZone": "Eastern Standard Time"
+            }
+        }
+    }
+}
