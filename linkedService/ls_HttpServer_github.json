@@ -1,0 +1,13 @@
+{
+    "name": "ls_HttpServer_github",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "HttpServer",
+        "typeProperties": {
+            "url": "https://raw.githubusercontent.com/tejusvivek/Airbnb-Data-ETL-Pipeline-using-Azure-Data-Factory/refs/heads/main/AB_NYC_2019.csv",
+            "enableServerCertificateValidation": true,
+            "authenticationType": "Anonymous"
+        }
+    }
+}
