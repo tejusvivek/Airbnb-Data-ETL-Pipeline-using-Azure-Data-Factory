@@ -1,0 +1,6 @@
+selected resource name:		airbnb_etl_pipeline
+selected resource type:		pipeline
+factory name:			adf-etl-airbnb
+factory location:		centralus
+subscription id:		********-****-****-****-************
+time of download (UTC):		Thu, 05 Dec 2024 04:58:30 GMT
